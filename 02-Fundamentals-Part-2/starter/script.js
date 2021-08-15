@@ -57,3 +57,10 @@ console.log(yearsUntilRetirement(1945, "Tom"))
 // }
 
 // console.log(fruitProcessor(2, 3))
+let total = 0;
+const calcAverage = (scores) => {
+  for (let i = 0; i < scores.length; i++) {
+    total += scores[i];
+  }
+  let avg = total / scores.length;
+};
